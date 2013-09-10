@@ -1,4 +1,4 @@
-package hellonetowork;
+package hellonetwork3;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -53,10 +53,8 @@ public class ClientMain4 {
 					System.out.println(ois.readObject());
 				}
 			} catch (ClassNotFoundException e) {
-				// TODO 自動生成された catch ブロック
 				e.printStackTrace();
 			} catch (IOException e) {
-				// TODO 自動生成された catch ブロック
 				e.printStackTrace();
 			}
 		}
