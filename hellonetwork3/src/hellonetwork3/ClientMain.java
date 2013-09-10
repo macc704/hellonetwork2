@@ -13,7 +13,7 @@ public class ClientMain {
 	}
 
 	void run() throws Exception {
-		Socket sock = new Socket("localhost", 10000);		
+		Socket sock = new Socket("192.168.1.163", 10000);		
 		OutputStream out = sock.getOutputStream();
 		ObjectOutputStream ois = new ObjectOutputStream(out);
 		ois.writeObject("Test");
